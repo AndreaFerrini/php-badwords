@@ -20,18 +20,17 @@ $name = "Andrea";
     <form action="censura.php" method="GET">
   
         <div class="m-4">
-               <label for="exampleFormControlTextarea1" class="form-label">Inserisci testo</label>
-               <input class="form-control form-control-lg" type="text" placeholder="..." aria-label=".form-control-lg example" name="testo">
+            <label for="exampleFormControlTextarea1" class="form-label">Scegli una parola da censurare</label>
+            <input class="form-control form-control-lg" type="text" placeholder="..." aria-label=".form-control-lg example" name="testo">
         </div>
 
         <div class="m-4">
-               <label for="exampleFormControlTextarea1" class="form-label">Scegli una parola da censurare</label>
-               <input class="form-control form-control-lg" type="text" placeholder="..." aria-label=".form-control-lg example" name="censure">
+            <label for="exampleFormControlTextarea1" class="form-label">Scegli una parola da censurare</label>
+            <input class="form-control form-control-lg" type="text" placeholder="..." aria-label=".form-control-lg example" name="censure">
         </div>
 
         <div class="text-center">
-               <button type="submit" class="btn btn-outline-success text-center">Invia dati</button>
-               <input class="btn btn-primary" type="submit" value="Submit">
+            <button type="submit" class="btn btn-outline-success text-center">Invia dati</button>
         </div>
 
 
